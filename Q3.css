@@ -1,0 +1,19 @@
+/* Set up the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-template-rows: repeat(2, 100px); /* 2 rows with fixed height of 100px */
+    gap: 10px; /* Space between grid items */
+    padding: 10px; /* Space around the grid container */
+}
+
+/* Style for the individual grid items */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}

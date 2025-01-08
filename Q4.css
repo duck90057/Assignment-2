@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style for the YouTube card container */
+.youtube-card {
+    width: 320px;  /* Fixed width for the card */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.youtube-card:hover {
+    transform: scale(1.05);  /* Slightly enlarge on hover */
+}
+
+/* Thumbnail styling */
+.thumbnail {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+/* Title styling */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* Description styling */
+.description {
+    font-size: 14px;
+    color: #666;
+    margin: 0 15px 15px 15px;
+    line-height: 1.5;
+}
